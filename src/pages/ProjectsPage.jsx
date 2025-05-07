@@ -2,10 +2,6 @@ import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import sampleImage from "../assets/calcu.png";
 
-/**
- * 프로젝트 페이지 컴포넌트
- * 사용자의 프로젝트들을 카드 형태로 보여주는 페이지
- */
 const ProjectsPage = () => {
   const projects = [
     {
@@ -15,7 +11,7 @@ const ProjectsPage = () => {
     },
     {
       title: "나의 프로젝트2",
-      description: "캡스톤 프로젝트에서의 딥러닝 기반 영상 분류 시스템",
+      description: "소프트웨어공학 Term Project",
     },
     {
       title: "나의 프로젝트3",

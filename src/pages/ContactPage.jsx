@@ -4,7 +4,7 @@ import ContactForm from "../components/ContactForm";
 
 const ContactPage = () => {
   return (
-    <div className="contact-container">
+    <div className="contact-container" style = {{backgroundColor:"#f0f8ff"}}>
       <h2>연락처</h2>
       <ContactInfo />
       <ContactForm />

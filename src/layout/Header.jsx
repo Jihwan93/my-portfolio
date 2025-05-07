@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = ({ currentPage, setCurrentPage }) => {
+const Header = ({ setCurrentPage }) => {
   return (
     <header className="header">
       <h1>나만의 포트폴리오</h1>
@@ -9,6 +9,7 @@ const Header = ({ currentPage, setCurrentPage }) => {
         <button onClick={() => setCurrentPage("about")}>소개</button>
         <button onClick={() => setCurrentPage("projects")}>프로젝트</button>
         <button onClick={() => setCurrentPage("contact")}>연락처</button>
+        <button onClick={() => setCurrentPage("calculate")}>계산기</button>
       </nav>
     </header>
   );

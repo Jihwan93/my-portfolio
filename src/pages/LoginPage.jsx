@@ -35,7 +35,9 @@ const LoginPage = ({ onLogin }) => {
           />
         </div>
         {error && <p className="error">{error}</p>}
-        <button type="submit">로그인</button>
+        <button type="submit" style={{ marginTop: "10px", 
+          padding: "8px 16px", backgroundColor: "#4CAF50", 
+          color: "white", border: "none", borderRadius: "4px" }}>로그인</button>
       </form>
     </div>
   );
